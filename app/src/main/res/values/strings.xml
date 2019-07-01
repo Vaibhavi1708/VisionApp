@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Vision</string>
+
+    <string name="empty_message">No items to display</string>
+    <string name="home">Home</string>
+
+    <string name="s_db">- Tap once to open.\n\n- Tap twice for details.\n\n- Tap thrice to display information box.\n\n- Tap four times to exit.</string>
+
+    <string name="s1_db"> You are in Home Screen.
+                      Tap once to open.
+                      Tap twice for details.
+                      Tap thrice to display information box.
+                      Tap four times to exit. </string>
+
+    <string name="s_c">- Tap once to enter number.\n\n- Tap twice to call.\n\n- Tap thrice to display information box.\n\n- Tap four times to exit.</string>
+
+    <string name="s1_c"> You are in Call Screen.
+                     Tap once to enter number.
+                     Tap twice to call.
+                     Tap thrice to display information box.
+                     Tap four times to exit.</string>
+
+    <string name="s_m">- Tap once to read message.\n\n- Tap thrice to display information box.\n\n- Tap four times to exit.  </string>
+
+    <string name="s1_m">You are in Message Screen.
+                    Tap once to read message.
+                    Tap thrice to display information box.
+                    Tap four times to exit.</string>
+
+    <string name="s_d">- Tap once to read.\n\n- Tap twice to speak.\n\n- Tap thrice to display information box.\n\n- Tap four times to exit.</string>
+
+    <string name="s1_d">You are in Diary Screen.
+                    Tap once to read.
+                    Tap twice to speak.
+                    Tap thrice to display information box.
+                    Tap four times to exit.</string>
+    <string name="s_b">- Tap once to read.\n\n- Tap twice to refresh.\n\n- Tap thrice to display information box.\n\n- Tap four times to exit.</string>
+
+    <string name="s1_b">You are in Battery Screen.
+                    Tap once to read.
+                    Tap twice to refresh.
+                    Tap thrice to display information box.
+                    Tap four times to exit.</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0.5"-->
+    <!--android:orientation="horizontal">-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvmessage"-->
+    <!--style="@style/dashboard_style"-->
+    <!--android:text="Message" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvcall"-->
+    <!--style="@style/dashboard_style"-->
+    <!--android:text="Call" />-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0.5"-->
+    <!--android:orientation="horizontal">-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvbattery"-->
+    <!--style="@style/dashboard_style"-->
+    <!--android:text="Battery" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvdairy"-->
+    <!--style="@style/dashboard_style"-->
+    <!--android:text="Diary" />-->
+
+
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvmessage"
+                style="@style/StyleTvDashboard"
+                android:text="Message"
+                />
+
+            <TextView
+                android:id="@+id/tvcall"
+                style="@style/StyleTvDashboard"
+                android:text="Call" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvbattery"
+                style="@style/StyleTvDashboard"
+                android:text="Battery" />
+
+            <TextView
+                android:id="@+id/tvdairy"
+                style="@style/StyleTvDashboard"
+                android:text="Diary" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

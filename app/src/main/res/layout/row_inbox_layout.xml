@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentRowInbox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TvMain"
+            tools:text="Number"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/_5sdp"/>
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TvMain"
+        tools:text="Message"
+        android:layout_margin="@dimen/_5sdp"/>
+
+ </LinearLayout>
